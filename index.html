@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume Feedback Website</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Resume Feedback System</h1>
+        <p>Upload your resume and get instant feedback</p>
+    </header>
+
+    <section class="upload-section">
+        <h2>Upload Your Resume</h2>
+        <input type="file" id="resumeUpload" />
+        <button onclick="giveFeedback()">Get Feedback</button>
+    </section>
+
+    <section id="resultBox" class="result-box">
+        <h2>Feedback</h2>
+        <p id="feedbackText">Your feedback will appear here.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
